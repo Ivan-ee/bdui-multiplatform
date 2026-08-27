@@ -179,13 +179,13 @@
   var hashCode = kotlin_kotlin.$_$.ua;
   var compareValues = kotlin_kotlin.$_$.i8;
   var charset = kotlin_io_ktor_ktor_http.$_$.f1;
-  var withCharset = kotlin_io_ktor_ktor_http.$_$.q1;
+  var withCharset = kotlin_io_ktor_ktor_http.$_$.r1;
   var charset_0 = kotlin_io_ktor_ktor_http.$_$.e1;
   var readText_0 = kotlin_io_ktor_ktor_io.$_$.w;
   var Companion_getInstance_1 = kotlin_io_ktor_ktor_http.$_$.j;
   var get_authority = kotlin_io_ktor_ktor_http.$_$.d1;
-  var takeFrom = kotlin_io_ktor_ktor_http.$_$.o1;
-  var isSecure = kotlin_io_ktor_ktor_http.$_$.k1;
+  var takeFrom = kotlin_io_ktor_ktor_http.$_$.p1;
+  var isSecure = kotlin_io_ktor_ktor_http.$_$.l1;
   var get_authority_0 = kotlin_io_ktor_ktor_http.$_$.c1;
   var Companion_getInstance_2 = kotlin_io_ktor_ktor_http.$_$.h;
   var EventDefinition = kotlin_io_ktor_ktor_events.$_$.a;
@@ -220,7 +220,7 @@
   var generateNonce = kotlin_io_ktor_ktor_utils.$_$.y;
   var Default_getInstance_0 = kotlin_kotlin.$_$.c2;
   var HeadersBuilder = kotlin_io_ktor_ktor_http.$_$.y;
-  var isWebsocket = kotlin_io_ktor_ktor_http.$_$.l1;
+  var isWebsocket = kotlin_io_ktor_ktor_http.$_$.m1;
   var emptyList = kotlin_kotlin.$_$.k6;
   var addAll = kotlin_kotlin.$_$.o5;
   var parseWebSocketExtensions = kotlin_io_ktor_ktor_websockets.$_$.q;
@@ -233,7 +233,7 @@
   var WebSocketExtension = kotlin_io_ktor_ktor_websockets.$_$.n;
   var ByteChannel = kotlin_io_ktor_ktor_io.$_$.g1;
   var URLBuilder = kotlin_io_ktor_ktor_http.$_$.a1;
-  var takeFrom_0 = kotlin_io_ktor_ktor_http.$_$.n1;
+  var takeFrom_0 = kotlin_io_ktor_ktor_http.$_$.o1;
   var appendAll = kotlin_io_ktor_ktor_utils.$_$.x;
   var putAll = kotlin_io_ktor_ktor_utils.$_$.a1;
   var GMTDate = kotlin_io_ktor_ktor_utils.$_$.d;
@@ -253,7 +253,7 @@
   var CancellationException_0 = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.e1;
   var cancel_3 = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.r1;
   var Companion_getInstance_5 = kotlin_io_ktor_ktor_http.$_$.f;
-  var headersOf = kotlin_io_ktor_ktor_http.$_$.j1;
+  var headersOf = kotlin_io_ktor_ktor_http.$_$.k1;
   var intercepted = kotlin_kotlin.$_$.n8;
   var CancellableContinuationImpl = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.d1;
   var arrayConcat = kotlin_kotlin.$_$.a;
@@ -278,7 +278,7 @@
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.v1;
   var send = kotlin_io_ktor_ktor_websockets.$_$.e;
   var toTypedArray = kotlin_kotlin.$_$.g8;
-  var get_supportsRequestBody = kotlin_io_ktor_ktor_http.$_$.m1;
+  var get_supportsRequestBody = kotlin_io_ktor_ktor_http.$_$.n1;
   var isEmpty = kotlin_io_ktor_ktor_http.$_$.w;
   var atomic$ref$1 = kotlin_org_jetbrains_kotlinx_atomicfu.$_$.d;
   //endregion

@@ -33,7 +33,7 @@ func main() {
 	slog.SetDefault(logger)
 
 	mux := http.NewServeMux()
-	transport.Register(mux, service.NewCatalog(pool), logger)
+	transport.Register(mux, service.NewCatalog(pool), service.NewPayments(pool), logger)
 
 	srv := &http.Server{
 		Addr:              ":" + port,

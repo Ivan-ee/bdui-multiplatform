@@ -7,6 +7,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Диагностика прототипа: последняя ошибка страницы видна в title.
+      window.addEventListener('error', e => { document.title = 'ERR: ' + (e.message || e.type); });
+      window.addEventListener('unhandledrejection', e => { document.title = 'REJ: ' + (e.reason && e.reason.message || e.reason); });
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

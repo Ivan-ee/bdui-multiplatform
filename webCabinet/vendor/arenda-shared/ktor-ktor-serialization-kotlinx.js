@@ -46,7 +46,7 @@
   var isInterface = kotlin_kotlin.$_$.kb;
   var ByteArrayContent = kotlin_io_ktor_ktor_http.$_$.l;
   var BinaryFormat = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.d2;
-  var withCharsetIfNeeded = kotlin_io_ktor_ktor_http.$_$.p1;
+  var withCharsetIfNeeded = kotlin_io_ktor_ktor_http.$_$.q1;
   var TextContent = kotlin_io_ktor_ktor_http.$_$.v;
   var StringFormat = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.k2;
   var equals = kotlin_kotlin.$_$.pa;

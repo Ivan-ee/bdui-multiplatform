@@ -57,7 +57,7 @@
   var HttpResponse = kotlin_io_ktor_ktor_client_core.$_$.l;
   var ByteReadChannel = kotlin_io_ktor_ktor_io.$_$.j1;
   var isInterface = kotlin_kotlin.$_$.kb;
-  var contentType = kotlin_io_ktor_ktor_http.$_$.i1;
+  var contentType = kotlin_io_ktor_ktor_http.$_$.j1;
   var charset = kotlin_io_ktor_ktor_http.$_$.f1;
   var get_request = kotlin_io_ktor_ktor_client_core.$_$.n;
   var Collection = kotlin_kotlin.$_$.b5;

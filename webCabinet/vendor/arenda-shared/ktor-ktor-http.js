@@ -1502,6 +1502,9 @@
     var tmp0_safe_receiver = contentType_0(_this__u8e3s4);
     return tmp0_safe_receiver == null ? null : charset(tmp0_safe_receiver);
   }
+  function contentType_1(_this__u8e3s4, type) {
+    return _this__u8e3s4.a2p().o2d('Content-Type', type.toString());
+  }
   function get_REQUESTS_WITHOUT_BODY() {
     _init_properties_HttpMethod_kt__cbus5z();
     return REQUESTS_WITHOUT_BODY;
@@ -3127,15 +3130,16 @@
   _.$_$.f1 = charset;
   _.$_$.g1 = contentLength;
   _.$_$.h1 = contentType;
-  _.$_$.i1 = contentType_0;
-  _.$_$.j1 = headersOf;
-  _.$_$.k1 = isSecure;
-  _.$_$.l1 = isWebsocket;
-  _.$_$.m1 = get_supportsRequestBody;
-  _.$_$.n1 = takeFrom_0;
-  _.$_$.o1 = takeFrom;
-  _.$_$.p1 = withCharsetIfNeeded;
-  _.$_$.q1 = withCharset;
+  _.$_$.i1 = contentType_1;
+  _.$_$.j1 = contentType_0;
+  _.$_$.k1 = headersOf;
+  _.$_$.l1 = isSecure;
+  _.$_$.m1 = isWebsocket;
+  _.$_$.n1 = get_supportsRequestBody;
+  _.$_$.o1 = takeFrom_0;
+  _.$_$.p1 = takeFrom;
+  _.$_$.q1 = withCharsetIfNeeded;
+  _.$_$.r1 = withCharset;
   //endregion
   return _;
 }));
