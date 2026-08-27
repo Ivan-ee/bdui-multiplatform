@@ -1,0 +1,19 @@
+{
+  "name": "arenda-web-cabinet",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "kmp": "gradle --no-daemon -p .. :shared:jsBrowserProductionLibraryDistribution && rm -rf vendor/arenda-shared && cp -R ../shared/build/dist/js/productionLibrary vendor/arenda-shared && node -e \"const f='vendor/arenda-shared/package.json',p=require('./'+f);p.name='arenda-shared';p.version='0.1.0';delete p.bundledDependencies;require('fs').writeFileSync(f,JSON.stringify(p,null,2))\"",
+    "dev": "npm run kmp && vite",
+    "build": "npm run kmp && vite build",
+    "dev:only": "vite"
+  },
+  "dependencies": {
+    "@divkitframework/divkit": "33.0.0",
+    "arenda-shared": "file:./vendor/arenda-shared"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}

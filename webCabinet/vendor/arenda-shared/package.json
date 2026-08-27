@@ -1,0 +1,11 @@
+{
+  "name": "arenda-shared",
+  "version": "0.1.0",
+  "main": "bdui-multiplatform-shared.js",
+  "devDependencies": {},
+  "dependencies": {
+    "ws": "8.20.1"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}

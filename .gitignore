@@ -1,0 +1,24 @@
+# Go
+server/bin/
+
+# Kotlin Multiplatform / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+.kotlin/
+
+# Node
+node_modules/
+webCabinet/dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Генерируется xcodegen из iosApp/project.yml — не хранится в репозитории
+iosApp/ArendaPoC.xcodeproj/
+
+# macOS
+.DS_Store

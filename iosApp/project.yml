@@ -1,0 +1,25 @@
+name: ArendaPoC
+options:
+  bundleIdPrefix: ru.arenda
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+packages:
+  DivKit:
+    url: https://github.com/divkit/divkit-ios
+    exactVersion: 33.0.0
+targets:
+  ArendaPoC:
+    type: application
+    platform: iOS
+    sources:
+      - ArendaPoC
+    dependencies:
+      - package: DivKit
+        product: DivKit
+    info:
+      path: ArendaPoC/Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true

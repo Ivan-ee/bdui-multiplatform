@@ -1,0 +1,65 @@
+openapi: "3.0.3"
+info:
+  title: Arenda PoC API
+  version: "0.1.0"
+  description: >
+    Контракт вертикального среза. Spec-first: по нему генерируются
+    Kotlin-модели shared-модуля (openapi-generator, models-only).
+servers:
+  - url: http://localhost:8080/api/v1
+paths:
+  /objects:
+    get:
+      summary: Свободные Объекты каталога
+      operationId: listObjects
+      responses:
+        "200":
+          description: Список свободных Объектов
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Object"
+  /layout/catalog:
+    get:
+      summary: DivKit-карта экрана каталога
+      operationId: getCatalogLayout
+      description: >
+        BDUI-скелет: сервер собирает карту каталога из живых данных.
+        Один и тот же JSON рендерят Android/iOS/Web SDK движка.
+      responses:
+        "200":
+          description: DivData-совместимый JSON
+          content:
+            application/json:
+              schema:
+                type: object
+components:
+  schemas:
+    Object:
+      type: object
+      required: [id, owner_id, title, address, price_per_month, photos, status]
+      properties:
+        id:
+          type: string
+          format: uuid
+        owner_id:
+          type: string
+          format: uuid
+        title:
+          type: string
+        address:
+          type: string
+        description:
+          type: string
+        price_per_month:
+          type: integer
+          format: int64
+        photos:
+          type: array
+          items:
+            type: string
+        status:
+          type: string
+          enum: [free, occupied]
